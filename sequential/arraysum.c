@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 #define SIZE 10000
 
@@ -12,6 +13,7 @@ int sumArray(int arr[], int size) {
 }
 
 int main() {
+    clock_t t = clock();
     int arr[SIZE];
     for (int i = 0; i < SIZE; i++) {
         arr[i] = i + 1; 
