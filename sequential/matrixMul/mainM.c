@@ -1,4 +1,5 @@
 #include "matrixMul.h"
+#include <time.h>
 
 int main() {
 
