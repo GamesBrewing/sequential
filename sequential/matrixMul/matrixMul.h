@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+
 
 #define N 10 // Size of the matrices
 
