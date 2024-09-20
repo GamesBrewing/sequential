@@ -21,6 +21,7 @@ int main() {
 
     int totalSum = sumArray(arr, SIZE);
     printf("Total Sum: %d\n", totalSum);
-    
+    float totalTime = clock() - t;
+    printf ("Program took %f seconds to execute", totalTime);
     return 0;
 }
