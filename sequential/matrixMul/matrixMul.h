@@ -22,12 +22,7 @@ void matrixMultiply(int A[N][N], int B[N][N], int C[N][N]) {
         }
         C [colC++][x] = tempC; // fill in element in matrix C  
         tempC = 0;
-        /*if (++colC > N)
-        {
-            colC = 0;
-        }*/
         
-        //colC++;
     }
     colC = 0;
    }
